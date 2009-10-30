@@ -1,0 +1,15 @@
+LibertyReserve
+==============
+
+A ruby plugin to acces to Liberty reserve XML api
+
+
+Example
+=======
+
+lr =LibertyReserve.new('get_history','XXX','U111111') #params  : API name,password,account 
+@t= lr.history #retreive history
+
+
+
+Copyright (c) 2009 Christophe Belpaire, released under the MIT license
